@@ -1,0 +1,81 @@
+.contenido {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra*/
+}
+
+.contenido h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#carrito {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#carrito .producto {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#carrito .producto img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#carrito .producto .detalle {
+    flex-grow: 1; /*espacio entre productos*/
+}
+
+#carrito .precio-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.boton-compra {
+    background-color: #28a745; 
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+.boton-compra a {
+    color: white; 
+    text-decoration: none; /
+}
+.boton-compra:hover {
+    background-color: #218838; /*al pasar mouse*/
+    text-decoration: none;
+}
+
+.boton-cancelar {
+    background-color: #dc3545; 
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.boton-cancelar:hover {
+    background-color: #c82333; /*al pasar el mouse */
+}
